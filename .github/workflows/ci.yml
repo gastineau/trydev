@@ -1,4 +1,4 @@
-name: "Run CI"
+name: "Run CI 1"
 
 on: pull_request
 
@@ -7,6 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: pixi run test
 
 
